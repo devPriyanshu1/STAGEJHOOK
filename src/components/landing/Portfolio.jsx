@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaArrowRight } from "react-icons/fa";
+import Clients from "./Clients";
 
 const Portfolio = () => {
   const portfolioItems = [
@@ -34,19 +34,6 @@ const Portfolio = () => {
       subtitle: "AAHAR 2025 (Delhi)",
     },
   ];
-
-const clients = [
-  { id: 1, logo: "/clients/tvs.png", name: "TVS" },
-  { id: 2, logo: "/clients/sintex.png", name: "Sintex" },
-  { id: 3, logo: "/clients/jayna.png", name: "Jayna" },
-  { id: 4, logo: "/clients/glassco.png", name: "Glassco" },
-  { id: 5, logo: "/clients/parag.png", name: "Parag Milk Foods" },
-  { id: 6, logo: "/clients/mm-spires.png", name: "MM Spires" },
-  { id: 7, logo: "/clients/multitubo.png", name: "Multitubo" },
-  { id: 8, logo: "/clients/kent.png", name: "Kent RO" },
-  { id: 9, logo: "/clients/sbi.png", name: "SBI" },
-  { id: 10, logo: "/clients/khadi.png", name: "Khadi India" },
-];
 
   return (
     <section className="bg-gray-100 py-16">
@@ -84,35 +71,7 @@ const clients = [
         </div>
 
         {/* OUR CLIENTELE SECTION */}
-        <div className="bg-white py-12 px-6 rounded-lg shadow-md">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-8">
-            Our Clientele
-          </h2>
-
-          {/* CLIENT LOGOS GRID */}
-          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-10 gap-6 items-center justify-items-center mb-8">
-            {clients.map((client) => (
-              <div
-                key={client.id}
-                className="flex items-center justify-center w-20 h-16 hover:scale-110 transition-all duration-300"
-              >
-                <img
-                  src={client.logo}
-                  alt={client.name}
-                  className="max-w-full max-h-full object-contain"
-                />
-              </div>
-            ))}
-          </div>
-
-          {/* VIEW ALL BRANDS BUTTON */}
-          <div className="text-center">
-            <button className="inline-flex items-center gap-2 text-gray-800 font-semibold hover:text-[#A61C23] transition-colors duration-300">
-              View All Brands
-              <FaArrowRight className="text-sm" />
-            </button>
-          </div>
-        </div>
+        <Clients />
 
       </div>
     </section>

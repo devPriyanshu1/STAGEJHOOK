@@ -24,7 +24,7 @@ const CoreValues = () => {
         
         {/* Section Header */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-800 mb-4">Our Values</h2>
+          <h2 className="text-4xl font-bold text-gray-800 mb-4">Core Values</h2>
         </div>
 
         {/* Values Grid */}

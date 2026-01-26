@@ -6,11 +6,13 @@ const Navbar = () => {
       <div className="max-w-[1300px] mx-auto px-4 py-5 flex items-center justify-between">
         
         {/* LOGO */}
-        <div className="flex items-end gap-1">
-          <span className="text-2xl font-bold">STAGE</span>
-          <span className="text-4xl font-bold text-primary leading-none">J</span>
-          <span className="text-2xl font-bold">HOOK</span>
-        </div>
+        <Link to="/" className="flex items-center">
+          <img 
+            src="/logo.png" 
+            alt="Stage J Hook Logo" 
+            className="h-24 w-auto"
+          />
+        </Link>
 
         {/* MENU */}
         <ul className="flex gap-8 text-[14px] font-normal">

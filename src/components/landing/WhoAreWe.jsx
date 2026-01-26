@@ -43,9 +43,15 @@ const WhoAreWe = () => {
           </p>
         </div>
 
-        {/* RIGHT VIDEO PLACEHOLDER */}
+        {/* RIGHT VIDEO */}
         <div className="bg-[#2B2B2B] h-[340px] flex items-center justify-center text-white font-semibold text-xl rounded-sm shadow-lg">
-          LOGO VIDEO
+          <video 
+            className="w-full h-full object-cover rounded-sm"
+            controls
+            src="https://www.stagehook.co.in/img/video.mp4"
+          >
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
 
