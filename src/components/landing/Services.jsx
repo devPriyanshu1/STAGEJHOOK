@@ -15,14 +15,6 @@ const services = [
     title: "Custom Booth",
     img: "/services/custom-booth.jpg",
   },
-  {
-    title: "Expert in Graphic",
-    img: "/services/expert-graphic.jpg",
-  },
-  {
-    title: "Digital Marketing",
-    img: "/services/digital-marketing.jpg",
-  },
 ];
 
 const Services = () => {
@@ -31,7 +23,7 @@ const Services = () => {
       <div className="max-w-[1400px] mx-auto px-6">
         
         {/* Service Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           {services.map((item, index) => (
             <div 
               key={index} 
