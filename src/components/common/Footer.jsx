@@ -11,14 +11,7 @@ const Footer = () => {
   ];
 
   const locations = [
-    "Noida Head Office: B-32 GF, Sector 2, Near Sector 15 Metro Station - 201301",
-    "Noida Head Office: B-32 GF, Sector 2, Near Sector 15 Metro Station - 201301",
-    "Noida Head Office: B-32 GF, Sector 2, Near Sector 15 Metro Station - 201301",
-    "Noida Head Office: B-32 GF, Sector 2, Near Sector 15 Metro Station - 201301",
-    "Noida Head Office: B-32 GF, Sector 2, Near Sector 15 Metro Station - 201301",
-    "Noida Head Office: B-32 GF, Sector 2, Near Sector 15 Metro Station - 201301",
-    "Noida Head Office: B-32 GF, Sector 2, Near Sector 15 Metro Station - 201301",
-    "Noida Head Office: B-32 GF, Sector 2, Near Sector 15 Metro Station - 201301",
+    "G15, Second Floor, Sector 3, Noida",
   ];
 
   const navLinks = [
@@ -88,7 +81,7 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-6">Our Location</h3>
             <ul className="space-y-2.5">
               {locations.map((location, index) => (
-                <li key={index} className="text-xs leading-relaxed">
+                <li key={index} className="text-sm leading-relaxed">
                   {location}
                 </li>
               ))}
@@ -100,21 +93,11 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-6">Contact</h3>
             <div className="space-y-2.5 text-sm">
               <p>
-                <span className="font-semibold">99999 82358</span> |{" "}
-                <a href="mailto:info@stagehook.co.in" className="hover:underline">
-                  info@stagehook.co.in
-                </a>
+                <span className="font-semibold">+91 999 998 2358</span>
               </p>
               <p>
-                <span className="font-semibold">99999 82358</span> |{" "}
-                <a href="mailto:info@stagehook.co.in" className="hover:underline">
-                  info@stagehook.co.in
-                </a>
-              </p>
-              <p>
-                <span className="font-semibold">99999 82358</span> |{" "}
-                <a href="mailto:info@stagehook.co.in" className="hover:underline">
-                  info@stagehook.co.in
+                <a href="mailto:stagehook.india@gmail.com" className="hover:underline">
+                  stagehook.india@gmail.com
                 </a>
               </p>
             </div>
@@ -124,21 +107,27 @@ const Footer = () => {
               <h4 className="text-lg font-bold mb-4">Social Connect</h4>
               <div className="flex gap-3">
                 <a
-                  href="#"
+                  href="https://wa.me/919999982358"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-9 h-9 bg-white rounded-full flex items-center justify-center text-[#C41E3A] hover:bg-gray-100 transition-colors"
                   aria-label="WhatsApp"
                 >
                   <FaWhatsapp size={20} />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/stagehook.co.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-9 h-9 bg-white rounded-full flex items-center justify-center text-[#C41E3A] hover:bg-gray-100 transition-colors"
                   aria-label="Instagram"
                 >
                   <FaInstagram size={20} />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.facebook.com/stagehook.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-9 h-9 bg-white rounded-full flex items-center justify-center text-[#C41E3A] hover:bg-gray-100 transition-colors"
                   aria-label="Facebook"
                 >
