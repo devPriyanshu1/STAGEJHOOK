@@ -4,19 +4,18 @@ const TopBar = () => {
   return (
     <div className="bg-[#E31E24] text-white text-sm">
       <div className="max-w-[1300px] mx-auto px-4 h-10 flex items-center justify-end">
-        {/* Right side - Contact number and Social icons */}
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-2 sm:gap-4">
           {/* Phone number */}
-          <div className="flex items-center gap-2">
-            <span className="font-medium">Call us</span>
-            <span className="font-semibold">+91 999 998 2358</span>
+          <div className="flex items-center gap-1 sm:gap-2">
+            <span className="hidden sm:inline font-medium">Call us</span>
+            <span className="font-semibold text-xs sm:text-sm">+91 999 998 2358</span>
           </div>
 
           {/* Divider */}
           <div className="h-6 w-[1px] bg-white/40"></div>
 
-          {/* Social icons with circular borders */}
-          <div className="flex items-center gap-3">
+          {/* Social icons */}
+          <div className="flex items-center gap-2 sm:gap-3">
             <a 
               href="https://www.instagram.com/stagehook.co.in/" 
               target="_blank"
