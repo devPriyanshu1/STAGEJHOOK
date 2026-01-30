@@ -3,16 +3,16 @@ const WhyChooseUs = () => {
     <section className="bg-white">
       
       {/* Main Content Section */}
-      <div className="max-w-[1400px] mx-auto px-6 py-20">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 py-12 sm:py-16 md:py-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-12 lg:gap-16 items-center">
           
           {/* LEFT - Text Content */}
           <div>
-            <h2 className="text-4xl font-bold text-gray-800 mb-6">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-4 sm:mb-6">
               Why Choose Us
             </h2>
             
-            <div className="text-gray-700 leading-relaxed space-y-4 text-[15px] text-justify">
+            <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-sm sm:text-[15px] text-justify">
               <p>
                 We are more than just a service provider — we are your creative and strategic partner. From 
                 corporate events to international expos, we bring your vision to life with precision and 
@@ -40,11 +40,11 @@ const WhyChooseUs = () => {
           </div>
 
           {/* RIGHT - 3D Question Mark Image */}
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center mt-6 lg:mt-0">
             <img 
               src="/question-mark-3d.png" 
               alt="Why Choose Us" 
-              className="w-full max-w-[500px] h-auto"
+              className="w-full max-w-[350px] sm:max-w-[500px] h-auto"
             />
           </div>
         </div>

@@ -1,32 +1,32 @@
 const WhoAreWe = () => {
   return (
-    <section className="max-w-[1400px] mx-auto px-6 py-20 bg-white">
+    <section className="max-w-[1400px] mx-auto px-4 sm:px-6 py-12 sm:py-16 md:py-20 bg-white">
       
       {/* Heading */}
-      <h2 className="text-5xl font-bold text-center mb-4 text-gray-800 tracking-wide">
+      <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-3 sm:mb-4 text-gray-800 tracking-wide">
         WHO ARE WE
       </h2>
 
-      <p className="text-center font-semibold text-lg mb-16 text-gray-900">
+      <p className="text-center font-semibold text-base sm:text-lg mb-10 sm:mb-12 md:mb-16 text-gray-900 px-2">
         Welcome to STAGE HOOK – Where Brands Come Alive.
       </p>
 
      
       
       {/* INTRODUCTION Section - Below the grid */}
-      <div className="grid grid-cols-1 lg:grid-cols-[1.4fr_1fr] gap-6 items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-[1.4fr_1fr] gap-6 sm:gap-8 md:gap-10 lg:gap-12 items-center">
         
         {/* LEFT - INTRODUCTION Content */}
-        <div className="bg-white p-10 rounded-lg">
-          <h3 className="text-4xl font-bold text-[#E74C3C] mb-6 tracking-wide">
+        <div className="bg-white p-6 sm:p-8 md:p-10 rounded-lg">
+          <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#E74C3C] mb-4 sm:mb-6 tracking-wide">
             INTRODUCTION
           </h3>
 
-          <p className="font-bold text-xl mb-8 text-gray-900 leading-relaxed">
+          <p className="font-bold text-lg sm:text-xl mb-6 sm:mb-8 text-gray-900 leading-relaxed">
             Welcome to STAGE HOOK – Where Brands Come Alive.
           </p>
 
-          <div className="text-gray-700 leading-relaxed space-y-5 text-[15px] text-justify">
+          <div className="text-gray-700 leading-relaxed space-y-4 sm:space-y-5 text-sm sm:text-[15px] text-justify">
             <p>
               In today's fast-paced, highly competitive world, brands don't just need to exist — they 
               need to stand out, connect, and inspire. That's where we come in.
@@ -56,11 +56,11 @@ const WhoAreWe = () => {
         </div>
 
         {/* RIGHT - Illustration Image */}
-        <div className="flex items-center justify-center lg:justify-end">
+        <div className="flex items-center justify-center lg:justify-end mt-6 lg:mt-0">
           <img 
             src="/brand-illustration.png" 
             alt="Brand illustration" 
-            className="w-full max-w-[450px] h-auto object-contain"
+            className="w-full max-w-[350px] sm:max-w-[450px] h-auto object-contain"
           />
         </div>
       </div>

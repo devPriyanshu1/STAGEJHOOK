@@ -1,11 +1,11 @@
 const AboutIntro = () => {
   return (
-    <section className="bg-white py-16">
-      <div className="max-w-[1400px] mx-auto px-6">
+    <section className="bg-white py-12 sm:py-16">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
 
         {/* Intro Text */}
         <div className="max-w-6xl mx-auto">
-          <p className="text-gray-700 leading-relaxed mb-4">
+          <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
             <span className="font-bold text-[#C41E3A]">
               Since 2015, STAGEHOOK
             </span>{" "}
@@ -20,7 +20,7 @@ const AboutIntro = () => {
             brands to life.
           </p>
 
-          <p className="text-gray-700 leading-relaxed mb-4">
+          <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
             From concept to execution, we handle every aspect of your brand's
             presence—whether it's a custom-built exhibition booth, a full-scale
             event setup. Our 10-years' feedback and experienced project managers
@@ -28,7 +28,7 @@ const AboutIntro = () => {
             art of storytelling off the project.
           </p>
 
-          <p className="text-gray-700 leading-relaxed mb-4">
+          <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
             We don't just design and build—we create immersive brand
             experiences. From cutting-edge technology, installations, live
             events, audio/video, and digital manufacturing. Whether you're
@@ -36,16 +36,16 @@ const AboutIntro = () => {
             out, engage your audience, and drive measurable results.
           </p>
 
-          <p className="text-gray-700 leading-relaxed mb-6">
+          <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-4 sm:mb-6">
             With a presence across India and international experience.
           </p>
 
-          <p className="text-lg font-bold text-gray-800">
+          <p className="text-base sm:text-lg font-bold text-gray-800">
             Let's create something extraordinary together.
           </p>
 
           {/* Image Section */}
-          <div className="mt-12">
+          <div className="mt-8 sm:mt-12">
             <img
               src="/about-intro-image.jpg"
               alt="Exhibition Stall Design - Sketch to Reality"

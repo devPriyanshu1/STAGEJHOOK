@@ -19,11 +19,11 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="bg-white py-16">
-      <div className="max-w-[1400px] mx-auto px-6">
+    <section className="bg-white py-12 sm:py-16">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
         
         {/* Service Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mb-8 sm:mb-12">
           {services.map((item, index) => (
             <div 
               key={index} 
@@ -31,7 +31,7 @@ const Services = () => {
             >
               
               {/* IMAGE */}
-              <div className="h-[280px] overflow-hidden">
+              <div className="h-[240px] sm:h-[280px] overflow-hidden">
                 <img
                   src={item.img}
                   alt={item.title}
@@ -40,7 +40,7 @@ const Services = () => {
               </div>
 
               {/* RED TITLE BAR */}
-              <div className="bg-[#E31E24] text-white text-center py-4 font-semibold text-base">
+              <div className="bg-[#E31E24] text-white text-center py-3 sm:py-4 font-semibold text-sm sm:text-base px-2">
                 {item.title}
               </div>
             </div>
@@ -49,10 +49,10 @@ const Services = () => {
 
         {/* View All Services Button */}
         <div className="flex justify-center">
-          <button className="flex items-center gap-2 text-gray-800 font-semibold text-base hover:text-[#E31E24] transition-colors duration-300 group">
+          <button className="flex items-center gap-2 text-sm sm:text-base text-gray-800 font-semibold hover:text-[#E31E24] transition-colors duration-300 group">
             View All Services
             <svg 
-              className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" 
+              className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform duration-300" 
               fill="none" 
               stroke="currentColor" 
               viewBox="0 0 24 24"

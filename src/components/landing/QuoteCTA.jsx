@@ -1,17 +1,17 @@
 const QuoteCTA = () => {
   return (
-    <div className="bg-[#D9D9D9] py-8 sm:py-12 font-poppins">
+    <div className="bg-[#D9D9D9] py-6 sm:py-8 md:py-12 font-poppins">
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 flex flex-col md:flex-row items-center justify-between gap-4 sm:gap-6">
         
         {/* Left Text */}
-        <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-800 text-center md:text-left">
+        <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 text-center md:text-left leading-tight">
           Get Free Quote For Your Next Exhibition
         </h3>
 
         {/* Right Button */}
-        <button className="bg-[#E31E24] text-white px-6 sm:px-8 py-3 font-semibold text-sm sm:text-base rounded hover:bg-[#C01A1F] transition-colors duration-300 flex items-center gap-2 whitespace-nowrap">
+        <button className="bg-[#E31E24] text-white px-6 sm:px-8 py-2.5 sm:py-3 font-semibold text-sm sm:text-base rounded hover:bg-[#C01A1F] transition-colors duration-300 flex items-center gap-2 whitespace-nowrap w-full sm:w-auto justify-center">
           <svg 
-            className="w-5 h-5" 
+            className="w-4 h-4 sm:w-5 sm:h-5" 
             fill="currentColor" 
             viewBox="0 0 20 20"
           >

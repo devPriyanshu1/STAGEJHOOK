@@ -11,17 +11,17 @@ const Clients = () => {
   ];
 
   return (
-    <div className="bg-white py-12 px-6 rounded-lg shadow-md">
-      <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-8">
+    <div className="bg-white py-8 sm:py-12 px-4 sm:px-6 rounded-lg shadow-md">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 text-center mb-6 sm:mb-8">
         Our Clientele
       </h2>
 
       {/* CLIENT LOGOS GRID */}
-      <div className="flex flex-wrap items-center justify-center gap-8 mb-8">
+      <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 md:gap-8 mb-6 sm:mb-8">
         {clients.map((client) => (
           <div
             key={client.id}
-            className="flex items-center justify-center w-24 h-20 hover:scale-110 transition-all duration-300"
+            className="flex items-center justify-center w-20 h-16 sm:w-24 sm:h-20 hover:scale-110 transition-all duration-300"
           >
             <img
               src={client.logo}
@@ -34,9 +34,9 @@ const Clients = () => {
 
       {/* VIEW ALL BRANDS BUTTON */}
       <div className="text-center">
-        <button className="inline-flex items-center gap-2 text-gray-800 font-semibold hover:text-[#A61C23] transition-colors duration-300">
+        <button className="inline-flex items-center gap-2 text-sm sm:text-base text-gray-800 font-semibold hover:text-[#A61C23] transition-colors duration-300">
           View All Brands
-          <FaArrowRight className="text-sm" />
+          <FaArrowRight className="text-xs sm:text-sm" />
         </button>
       </div>
     </div>
