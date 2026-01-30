@@ -49,70 +49,7 @@ const WhyChooseUs = () => {
           </div>
         </div>
       </div>
-
-      {/* Stats Section - Red Background with Pattern */}
-      <div 
-        className="relative bg-[#E31E24] py-16 overflow-hidden"
-        style={{
-          backgroundImage: 'url(/red-pattern-bg.jpg)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      >
-        {/* Dark Overlay */}
-        <div className="absolute inset-0 bg-black/40"></div>
-        
-        {/* Stats Content */}
-        <div className="relative max-w-[1400px] mx-auto px-6">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            
-            {/* Stat 1 - Covered Area */}
-            <div className="text-center text-white">
-              <div className="flex justify-center mb-4">
-                <svg className="w-16 h-16" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5zm0 2.18l8 3.6v7.22c0 4.35-2.93 8.43-7 9.77V4.18z"/>
-                  <circle cx="12" cy="12" r="3"/>
-                </svg>
-              </div>
-              <div className="text-3xl font-bold mb-1">46000+ sqm</div>
-              <div className="text-sm font-medium">Covered Area</div>
-            </div>
-
-            {/* Stat 2 - Clients */}
-            <div className="text-center text-white">
-              <div className="flex justify-center mb-4">
-                <svg className="w-16 h-16" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
-                </svg>
-              </div>
-              <div className="text-3xl font-bold mb-1">650+</div>
-              <div className="text-sm font-medium">Clients</div>
-            </div>
-
-            {/* Stat 3 - Exhibition Stands */}
-            <div className="text-center text-white">
-              <div className="flex justify-center mb-4">
-                <svg className="w-16 h-16" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H3V5h18v14zM9 10v8l7-4z"/>
-                </svg>
-              </div>
-              <div className="text-3xl font-bold mb-1">2700+</div>
-              <div className="text-sm font-medium">Exhibition Stands</div>
-            </div>
-
-            {/* Stat 4 - Avenues */}
-            <div className="text-center text-white">
-              <div className="flex justify-center mb-4">
-                <svg className="w-16 h-16" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
-                </svg>
-              </div>
-              <div className="text-3xl font-bold mb-1">95+</div>
-              <div className="text-sm font-medium">Avenues</div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </section>
   );
 };

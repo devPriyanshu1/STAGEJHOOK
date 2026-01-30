@@ -38,14 +38,18 @@ const Portfolio = () => {
   return (
     <section className="bg-gray-100 py-16">
       <div className="max-w-[1300px] mx-auto px-4">
-        
         {/* PORTFOLIO HEADER */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
             Portfolio
           </h2>
           <p className="text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            <span className="font-semibold">STAGEHOOK</span> has worked with numerous clients who have placed their trust in us, contributing towards our notable contribution. Our work reflects excellence, unique performance and remarkable exhibition design solutions. Take a look at our portfolio to know quality of our work and our role in their successful journey.
+            <span className="font-semibold">STAGEHOOK</span> has worked with
+            numerous clients who have placed their trust in us, contributing
+            towards our notable contribution. Our work reflects excellence,
+            unique performance and remarkable exhibition design solutions. Take a
+            look at our portfolio to know quality of our work and our role in
+            their successful journey.
           </p>
         </div>
 
@@ -72,7 +76,6 @@ const Portfolio = () => {
 
         {/* OUR CLIENTELE SECTION */}
         <Clients />
-
       </div>
     </section>
   );

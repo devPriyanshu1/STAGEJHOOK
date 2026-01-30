@@ -17,7 +17,7 @@ const Clients = () => {
       </h2>
 
       {/* CLIENT LOGOS GRID */}
-      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-8 items-center justify-items-center mb-8">
+      <div className="flex flex-wrap items-center justify-center gap-8 mb-8">
         {clients.map((client) => (
           <div
             key={client.id}

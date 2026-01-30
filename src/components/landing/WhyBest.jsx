@@ -2,7 +2,7 @@ const WhyBest = () => {
   return (
     <section className="bg-gray-100 py-16">
       <div className="max-w-[1300px] mx-auto px-4">
-        <div className="bg-white rounded-lg shadow-lg p-8 md:p-12">
+        <div className="bg-gray-300 rounded-lg shadow-lg p-8 md:p-12">
           
           {/* HEADING */}
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8">

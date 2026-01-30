@@ -1,6 +1,6 @@
 const WhoAreWe = () => {
   return (
-    <section className="max-w-[1400px] mx-auto px-6 py-20 bg-[#F5F5F5]">
+    <section className="max-w-[1400px] mx-auto px-6 py-20 bg-white">
       
       {/* Heading */}
       <h2 className="text-5xl font-bold text-center mb-4 text-gray-800 tracking-wide">
@@ -11,60 +11,57 @@ const WhoAreWe = () => {
         Welcome to STAGE HOOK – Where Brands Come Alive.
       </p>
 
-      {/* Content Grid */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start mb-20">
+     
+      
+      {/* INTRODUCTION Section - Below the grid */}
+      <div className="grid grid-cols-1 lg:grid-cols-[1.4fr_1fr] gap-6 items-center">
         
-        {/* LEFT TEXT */}
-        <div className="text-gray-700 leading-relaxed space-y-5 text-[15px] text-justify">
-          <p>
-            In today's fast-paced, highly competitive world, brands don't just need to exist – they 
-            need to stand out, connect, and inspire. That's where we come in.
+        {/* LEFT - INTRODUCTION Content */}
+        <div className="bg-white p-10 rounded-lg">
+          <h3 className="text-4xl font-bold text-[#E74C3C] mb-6 tracking-wide">
+            INTRODUCTION
+          </h3>
+
+          <p className="font-bold text-xl mb-8 text-gray-900 leading-relaxed">
+            Welcome to STAGE HOOK – Where Brands Come Alive.
           </p>
 
-          <p>
-            Whether you're launching a product, organizing a corporate event, showcasing at an expo, 
-            or building a digital presence, we bring your ideas to life with creativity, precision, 
-            and strategic thinking. Our team combines artistic flair with technical expertise to deliver 
-            seamless experiences that captivate audiences and drive real results.
-          </p>
+          <div className="text-gray-700 leading-relaxed space-y-5 text-[15px] text-justify">
+            <p>
+              In today's fast-paced, highly competitive world, brands don't just need to exist — they 
+              need to stand out, connect, and inspire. That's where we come in.
+            </p>
 
-          <p>
-            <span className="font-bold text-gray-900">STAGE HOOK</span> is a full-service creative 
-            and technology agency that brings together the best of the physical and digital worlds. 
-            We specialize in <span className="font-semibold">Exhibition Stall Design, Graphic Designing, 
-            Event Management, Digital Marketing, ATL and BTL, and Web Development</span>, offering a 
-            comprehensive suite of services designed to elevate your brand at every level.
-          </p>
+            <p>
+              Whether you're launching a product, organizing a corporate event, showcasing at an 
+              expo, or building a digital presence, we bring your ideas to life with creativity, 
+              precision, and strategic thinking. Our team combines artistic flair with technical 
+              expertise to deliver seamless experiences that captivate audiences and drive real 
+              results.
+            </p>
 
-          <p>
-            At <span className="font-bold text-gray-900">STAGE HOOK</span>, we don't just create 
-            designs or build booth — we craft stories, shape experiences, and help brands shine at 
-            every touchpoint.
-          </p>
+            <p>
+              Since 2015, <span className="font-bold text-gray-900">STAGE HOOK</span> has been a full-service creative and technology agency that 
+              brings together the best of the physical and digital worlds. We specialize in <span className="font-semibold">Exhibition 
+              Stall Design, Graphic Designing, Event Management, Digital Marketing, ATL and BTL, 
+              and Web Development</span>, offering a comprehensive suite of services designed to 
+              elevate your brand at every level.
+            </p>
+
+            <p>
+              At <span className="font-bold text-gray-900">STAGE HOOK</span>, we don't just create designs or build booth — we craft stories, shape 
+              experiences, and help brands shine at every touchpoint.
+            </p>
+          </div>
         </div>
 
-        {/* RIGHT VIDEO */}
-        <div className="bg-[#2B2B2B] h-[340px] flex items-center justify-center text-white font-semibold text-xl rounded-sm shadow-lg">
-          <video 
-            className="w-full h-full object-cover rounded-sm"
-            controls
-            src="https://www.stagehook.co.in/img/video.mp4"
-          >
-            Your browser does not support the video tag.
-          </video>
-        </div>
-      </div>
-
-      {/* Service Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div className="border-2 border-gray-800 bg-white py-8 text-center font-semibold text-lg hover:bg-gray-800 hover:text-white transition-all duration-300 cursor-pointer">
-          Custom Exhibition Design
-        </div>
-        <div className="border-2 border-gray-800 bg-white py-8 text-center font-semibold text-lg hover:bg-gray-800 hover:text-white transition-all duration-300 cursor-pointer">
-          Custom Built Stands
-        </div>
-        <div className="border-2 border-gray-800 bg-white py-8 text-center font-semibold text-lg hover:bg-gray-800 hover:text-white transition-all duration-300 cursor-pointer">
-          Event Services
+        {/* RIGHT - Illustration Image */}
+        <div className="flex items-center justify-center lg:justify-end">
+          <img 
+            src="/brand-illustration.png" 
+            alt="Brand illustration" 
+            className="w-full max-w-[450px] h-auto object-contain"
+          />
         </div>
       </div>
     </section>
