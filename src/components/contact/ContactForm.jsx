@@ -37,26 +37,7 @@ const ContactForm = () => {
                     <p className="font-semibold">Noida Head Office:</p>
                     <p className="text-sm">D-128, Sector 2, Noida, Noida, Gautam Buddha Nagar - 201301</p>
                   </div>
-                  <div>
-                    <p className="font-semibold">Noida Head Office:</p>
-                    <p className="text-sm">D-128, Sector 2, Noida, Noida, Gautam Buddha Nagar - 201301</p>
-                  </div>
-                  <div>
-                    <p className="font-semibold">Noida Head Office:</p>
-                    <p className="text-sm">D-128, Sector 2, Noida, Noida, Gautam Buddha Nagar - 201301</p>
-                  </div>
-                  <div>
-                    <p className="font-semibold">Noida Head Office:</p>
-                    <p className="text-sm">D-128, Sector 2, Noida, Noida, Gautam Buddha Nagar - 201301</p>
-                  </div>
-                  <div>
-                    <p className="font-semibold">Noida Head Office:</p>
-                    <p className="text-sm">D-128, Sector 2, Noida, Noida, Gautam Buddha Nagar - 201301</p>
-                  </div>
-                  <div>
-                    <p className="font-semibold">Noida Head Office:</p>
-                    <p className="text-sm">D-128, Sector 2, Noida, Noida, Gautam Buddha Nagar - 201301</p>
-                  </div>
+                 
                 </div>
               </div>
             </div>
